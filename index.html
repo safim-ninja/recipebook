@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe Book</title>
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-orange">
+        <div class="container-fluid">
+            <!-- Brand/Logo -->
+            <a class="navbar-brand" href="#">Recipe Book</a>
+
+            <!-- Responsive Toggle Button for Small Screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.php">
+                            <?php echo $GLOBALS['hh'] ?>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="add-recipe.php">Add New Recipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="login.php">Login/Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container py-3 mt-3">
+        <!-- Page-specific content will be loaded here -->
+        <h1>jndkjans</h1>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-orange">
+        <div class="container">
+            <span class="text-light">Your Recipe Book &copy; 2023</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

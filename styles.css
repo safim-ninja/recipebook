@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+    /* background-image: url(https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png); */
+    background-repeat: no-repeat;
+    background-color: #f7f8f9;
+    /* Light gray background color */
+}
+
+.bg-orange {
+    background-color: #ff8c42 !important;
+    /* Orange background color for navigation and footer */
+}
+
+.text-light {
+    color: #ffffff !important;
+    /* White text color for footer */
+}
+
+/* #heading {
+    background-image: url(https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+    position: relative;
+    height: 100%;
+    height: 300px;
+    width: 960px;
+} */
+
+/* #heading::before {
+    background-color: rgba(240, 216, 171, 0.25);
+    display: block;
+    content: '';
+    position: absolute;
+    height: inherit;
+    width: inherit;
+} */
